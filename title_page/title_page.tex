@@ -1,0 +1,30 @@
+\thispagestyle{empty}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Large Deggendorf Institute of Technology \par}
+    \vspace{1cm}
+    {\large Faculty of \faculty \par} % Assuming you replace \faculty with your specific faculty
+    {\large Program: \studies \par} % Here you add the specific study program
+    \vspace{2cm}
+    {\Huge\bfseries \thesistitleEN \par}
+    \vspace{2cm}
+    {\Large\itshape \student \par}
+    \vspace{0.2cm}
+    Matriculation Number: \matrnr \par
+    \vfill
+    Submitted in partial fulfillment of the requirements for the degree of \par
+    \textbf{\degree}
+    
+    \vfill
+    
+    % Adjust the spacing as needed
+    Supervised by \par
+    \supervisor
+    \ifthenelse{\equal{\secsupervisor}{}}{}{\par \vspace{0.5cm} Co-Supervised by \par \secsupervisor}
+
+    \vfill
+
+    {\large \today\par}
+\end{titlepage}
